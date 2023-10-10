@@ -1,0 +1,13 @@
+Resimler üzerinde "threshold" veya "eşikleme" işlemi, bir görüntünün farklı piksellerinin belirli bir eşik değeriyle karşılaştırıldığı ve bu karşılaştırma sonucunda piksellerin siyah veya beyaz gibi iki farklı değere dönüştürüldüğü bir işlemdir. Bu işlem, görüntü işleme ve analizi uygulamalarında sıkça kullanılır.
+
+Threshold işlemi genellikle şu adımları içerir:
+
+1-Giriş Görüntüsü: İşlem yapılacak olan görüntüyü seçin. Bu görüntü genellikle gri tonlamalıdır, yani her pikselin bir parlaklık değeri vardır.
+
+2-Eşik Değeri Belirleme: Threshold işlemi için bir eşik değeri belirleyin. Bu eşik değeri, piksellerin bu değerle karşılaştırılacağı eşik noktasını temsil eder. Örneğin, bir eşik değeri olarak 128 kullanabilirsiniz.
+
+3-Karşılaştırma ve Dönüşüm: Her piksel, eşik değeriyle karşılaştırılır. Eğer piksel değeri eşik değerinden büyükse, piksel beyaz olarak işaretlenir; eğer piksel değeri eşik değerinden küçükse, piksel siyah olarak işaretlenir.
+
+4-Sonuç Görüntüsü: Karşılaştırma ve dönüşüm işlemi sonucunda elde edilen yeni bir görüntü oluşturulur. Bu görüntü, sadece siyah ve beyaz piksellerden oluşur ve ana görüntüdeki belirli özellikleri veya nesneleri vurgulamak veya ayırmak için kullanılabilir.
+
+Threshold işlemi, özellikle kenar tespiti, nesne algılama ve görüntü segmentasyonu gibi birçok görüntü işleme görevinde kullanılır. Eşik değeri, uygulamanıza ve görüntünüzün özelliklerine bağlı olarak ayarlanmalıdır, çünkü yanlış bir eşik değeri sonucu istenmeyen sonuçlara yol açabilir.
